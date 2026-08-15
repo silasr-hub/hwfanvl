@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Stats placeholder">
+  <rect width="800" height="500" fill="#FAFAF7"/>
+  <g opacity="0.4" stroke="#0A2540" fill="none" stroke-width="2">
+    <rect x="60"  y="100" width="160" height="200" rx="14"/>
+    <rect x="240" y="100" width="160" height="200" rx="14"/>
+    <rect x="420" y="100" width="160" height="200" rx="14"/>
+    <rect x="600" y="100" width="160" height="200" rx="14"/>
+  </g>
+  <g transform="translate(140 200)" stroke="#FF6B35" stroke-width="3" fill="none" stroke-linecap="round">
+    <line x1="-30" y1="50" x2="30" y2="-50"/>
+    <path d="M14 -50 H30 V-34"/>
+  </g>
+  <g transform="translate(320 200)" stroke="#0A2540" stroke-width="3" fill="none" stroke-linecap="round">
+    <circle r="36"/>
+    <path d="M-12 0 L-4 8 L12 -8"/>
+  </g>
+  <g transform="translate(500 200)" stroke="#0A2540" stroke-width="3" fill="none" stroke-linecap="round">
+    <rect x="-36" y="-36" width="72" height="72" rx="8"/>
+    <path d="M-18 0 L-6 12 L18 -12"/>
+  </g>
+  <g transform="translate(680 200)" stroke="#0A2540" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M-36 24 V-36 M-36 -24 L-12 0 L36 -36"/>
+  </g>
+  <text x="400" y="430" font-family="Inter, system-ui" font-size="12" fill="#0A2540" text-anchor="middle" opacity="0.4" letter-spacing="0.2em">STATS PLACEHOLDER 800×500</text>
+</svg>

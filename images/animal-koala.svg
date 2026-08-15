@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="koala mascot">
+  <defs>
+    <linearGradient id="koala-fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9CA3AF"/>
+      <stop offset="100%" stop-color="#6B7280"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="60" cy="108" rx="30" ry="6" fill="rgba(10,37,64,0.10)"/>
+  <!-- body -->
+  <ellipse cx="60" cy="84" rx="26" ry="22" fill="url(#koala-fur)"/>
+  <!-- belly -->
+  <ellipse cx="60" cy="90" rx="14" ry="12" fill="#E5E7EB"/>
+  <!-- arms (clinging to branch effect) -->
+  <ellipse cx="34" cy="78" rx="9" ry="14" fill="url(#koala-fur)"/>
+  <ellipse cx="86" cy="78" rx="9" ry="14" fill="url(#koala-fur)"/>
+  <!-- head (big fluffy) -->
+  <circle cx="60" cy="46" r="30" fill="url(#koala-fur)"/>
+  <!-- ears (round) -->
+  <circle cx="32" cy="26" r="11" fill="url(#koala-fur)"/>
+  <circle cx="32" cy="26" r="6" fill="#FFB6C1"/>
+  <circle cx="88" cy="26" r="11" fill="url(#koala-fur)"/>
+  <circle cx="88" cy="26" r="6" fill="#FFB6C1"/>
+  <!-- nose (big black) -->
+  <ellipse cx="60" cy="50" rx="8" ry="6" fill="#0A2540"/>
+  <ellipse cx="58" cy="48" rx="2" ry="1" fill="#FFFFFF" opacity="0.4"/>
+  <!-- eyes -->
+  <circle cx="48" cy="42" r="3" fill="#0A2540"/>
+  <circle cx="72" cy="42" r="3" fill="#0A2540"/>
+  <circle cx="49" cy="41" r="1" fill="#FFFFFF"/>
+  <circle cx="73" cy="41" r="1" fill="#FFFFFF"/>
+  <!-- mouth -->
+  <path d="M60 58 V62 M60 62 C57 64 54 64 53 62 M60 62 C63 64 66 64 67 62" stroke="#0A2540" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+</svg>

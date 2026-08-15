@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="panda mascot">
+  <ellipse cx="60" cy="108" rx="32" ry="6" fill="rgba(10,37,64,0.10)"/>
+  <!-- body -->
+  <ellipse cx="60" cy="84" rx="30" ry="22" fill="#FFFFFF" stroke="#0A2540" stroke-width="2"/>
+  <!-- arms/legs dark patches -->
+  <ellipse cx="36" cy="82" rx="8" ry="14" fill="#0A2540"/>
+  <ellipse cx="84" cy="82" rx="8" ry="14" fill="#0A2540"/>
+  <ellipse cx="46" cy="100" rx="8" ry="8" fill="#0A2540"/>
+  <ellipse cx="74" cy="100" rx="8" ry="8" fill="#0A2540"/>
+  <!-- head -->
+  <circle cx="60" cy="44" r="28" fill="#FFFFFF" stroke="#0A2540" stroke-width="2"/>
+  <!-- ears -->
+  <circle cx="38" cy="22" r="9" fill="#0A2540"/>
+  <circle cx="82" cy="22" r="9" fill="#0A2540"/>
+  <!-- eye patches -->
+  <ellipse cx="48" cy="46" rx="8" ry="11" fill="#0A2540" transform="rotate(-15 48 46)"/>
+  <ellipse cx="72" cy="46" rx="8" ry="11" fill="#0A2540" transform="rotate(15 72 46)"/>
+  <!-- eyes -->
+  <circle cx="48" cy="46" r="2.5" fill="#FFFFFF"/>
+  <circle cx="72" cy="46" r="2.5" fill="#FFFFFF"/>
+  <circle cx="48" cy="46" r="1.2" fill="#0A2540"/>
+  <circle cx="72" cy="46" r="1.2" fill="#0A2540"/>
+  <!-- nose -->
+  <path d="M56 56 L64 56 L60 62 Z" fill="#0A2540"/>
+  <!-- mouth -->
+  <path d="M60 62 V66 M60 66 C56 69 53 68 52 65 M60 66 C64 69 67 68 68 65" stroke="#0A2540" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- cheek blush -->
+  <circle cx="40" cy="58" r="2.5" fill="#FF6B35" opacity="0.4"/>
+  <circle cx="80" cy="58" r="2.5" fill="#FF6B35" opacity="0.4"/>
+</svg>

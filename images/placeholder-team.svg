@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Team placeholder">
+  <rect width="600" height="600" fill="#FAFAF7"/>
+  <g transform="translate(300 300)">
+    <circle r="160" fill="none" stroke="#0A2540" stroke-width="2" stroke-dasharray="6 6" opacity="0.3"/>
+    <circle r="100" fill="#0A2540" opacity="0.08"/>
+    <g fill="none" stroke="#0A2540" stroke-width="1.5" opacity="0.5">
+      <circle cx="0" cy="-90" r="22" fill="#0A2540" opacity="0.2"/>
+      <circle cx="78" cy="-44" r="22" fill="#0A2540" opacity="0.2"/>
+      <circle cx="78" cy="44" r="22" fill="#0A2540" opacity="0.2"/>
+      <circle cx="0" cy="90" r="22" fill="#0A2540" opacity="0.2"/>
+      <circle cx="-78" cy="44" r="22" fill="#0A2540" opacity="0.2"/>
+      <circle cx="-78" cy="-44" r="22" fill="#0A2540" opacity="0.2"/>
+    </g>
+  </g>
+  <text x="300" y="540" font-family="Inter, system-ui" font-size="14" fill="#0A2540" text-anchor="middle" opacity="0.4" letter-spacing="0.2em">TEAM PLACEHOLDER 600×600</text>
+</svg>

@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0A2540">
+  <meta name="color-scheme" content="light">
+
+  <title>HW FanVL — Mobile Apps &amp; Digital Experiences</title>
+  <meta name="description" content="HW FanVL crafts premium mobile games, lifestyle tools, and digital products. Publishing on Google Play and the App Store with intelligent ad monetization.">
+  <meta name="keywords" content="mobile apps, game studio, AdMob mediation, TopOn, TradPlus, Google Play, App Store, casual games, lifestyle tools, mobile game studio, app monetization, indie studio, HW FanVL">
+  <meta name="author" content="HW FanVL">
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow">
+  <link rel="canonical" href="https://hwfanvl.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="HW FanVL">
+  <meta property="og:title" content="HW FanVL — Mobile Apps &amp; Digital Experiences">
+  <meta property="og:description" content="Premium mobile games, lifestyle tools, and digital products — published on Google Play and the App Store with intelligent ad monetization.">
+  <meta property="og:url" content="https://hwfanvl.com/">
+  <meta property="og:image" content="https://hwfanvl.com/images/og-image.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="HW FanVL — Mobile Apps &amp; Digital Experiences">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="HW FanVL — Mobile Apps &amp; Digital Experiences">
+  <meta name="twitter:description" content="Premium mobile games, lifestyle tools, and digital products — published on Google Play and the App Store with intelligent ad monetization.">
+  <meta name="twitter:image" content="https://hwfanvl.com/images/og-image.svg">
+  <meta name="twitter:image:alt" content="HW FanVL — Mobile Apps &amp; Digital Experiences">
+
+  <!-- JSON-LD: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "HW FanVL",
+    "url": "https://hwfanvl.com",
+    "logo": "https://hwfanvl.com/images/logo.svg",
+    "description": "HW FanVL crafts premium mobile games, lifestyle tools, and digital products published on Google Play and the App Store with intelligent ad monetization.",
+    "email": "silasr@theboartech.pics",
+    "sameAs": []
+  }
+  </script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="apple-touch-icon" href="images/favicon.svg">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+
+  <!-- Scripts (deferred) -->
+  <script defer src="js/main.js"></script>
+  <script defer src="js/animations.js"></script>
+</head>
+
+<body>
+  <!-- Scroll progress bar (fixed, top) -->
+  <div class="scroll-progress" data-scroll-progress aria-hidden="true"></div>
+
+  <!-- Cursor halo (large screens; hidden on touch) -->
+  <div class="cursor-halo" data-cursor-halo aria-hidden="true"></div>
+  <div class="cursor-glow" data-cursor-glow aria-hidden="true"></div>
+
+  <!-- ==================== NAV_START (identical across all pages) ==================== -->
+  <header class="nav nav--dark" data-nav>
+    <div class="nav__inner">
+      <a class="nav-logo" href="index.html" aria-label="HW FanVL home">
+        <img class="logo-mark" src="images/logo.svg" alt="" width="36" height="36">
+        <span class="logo-text">HW FanVL <span class="sub">studio</span></span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Primary">
+        <ul class="nav-list" role="list">
+          <li><a class="nav-link" data-nav-link href="index.html">Home</a></li>
+          <li><a class="nav-link" data-nav-link href="services.html">Services</a></li>
+          <li><a class="nav-link" data-nav-link href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a class="nav-cta" data-magnetic href="contact.html">
+            <span>Get in touch</span>
+            <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M7 17 L17 7"/>
+              <path d="M8 7 H17 V16"/>
+            </svg>
+          </a>
+        </div>
+      </nav>
+
+      <button class="nav-toggle" data-nav-toggle aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-drawer">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+    <div class="nav-progress" data-nav-progress aria-hidden="true"></div>
+  </header>
+
+  <div class="mobile-drawer" id="mobile-drawer" data-mobile-drawer aria-hidden="true">
+    <ul class="nav-list" role="list">
+      <li><a class="nav-link" data-nav-link href="index.html">Home</a></li>
+      <li><a class="nav-link" data-nav-link href="services.html">Services</a></li>
+      <li><a class="nav-link" data-nav-link href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a class="nav-cta" href="contact.html">
+        <span>Get in touch</span>
+        <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M7 17 L17 7"/>
+          <path d="M8 7 H17 V16"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+  <!-- ==================== NAV_END ==================== -->
+
+  <main id="main">
+
+    <!-- ==================== HERO_SECTION_START ==================== -->
+    <section class="hero hero--ink" id="hero" data-anim-bg>
+      <div class="hero__bg" aria-hidden="true">
+        <img class="hero__img" src="images/studio-hero.png" alt="">
+        <div class="hero__grid-overlay"></div>
+      </div>
+
+      <div class="hero__inner">
+        <div class="hero__content">
+          <span class="hero__eyebrow">
+            <span class="pulse"></span>
+            <span>Mobile studio · accepting partners</span>
+          </span>
+
+          <h1>
+            <span class="display-line">Apps that earn</span>
+            <span class="display-line display-accent">their keep.</span>
+          </h1>
+
+          <p class="lead">
+            HW FanVL is an independent mobile product studio. We design, build, and publish casual games and everyday utility apps for <strong>Google&nbsp;Play</strong> and the <strong>App&nbsp;Store</strong> — then tune every impression through smart ad mediation across <strong>AdMob</strong>, <strong>TopOn</strong> and <strong>TradPlus</strong>.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn-primary btn-lg" data-magnetic href="services.html">
+              <span>Explore services</span>
+              <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 17 L17 7"/>
+                <path d="M8 7 H17 V16"/>
+              </svg>
+            </a>
+            <a class="btn btn-outline-light btn-lg" data-magnetic href="#featured">
+              <span>See our work</span>
+            </a>
+          </div>
+
+          <div class="hero__stats">
+            <div class="hero__stat">
+              <span class="num" data-counter="50" data-suffix="+">0</span>
+              <span class="lbl">Apps shipped</span>
+            </div>
+            <div class="hero__stat">
+              <span class="num" data-counter="30" data-suffix="M+">0</span>
+              <span class="lbl">Lifetime downloads</span>
+            </div>
+            <div class="hero__stat">
+              <span class="num" data-counter="90" data-suffix="+">0</span>
+              <span class="lbl">Countries reached</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual" data-tilt data-tilt-scroll="6">
+          <div class="hero__visual-stack" aria-hidden="true">
+            <div class="deco-blob ink glow"></div>
+            <div class="deco-dots sm"></div>
+            <img class="hero__visual-main" src="images/studio-hero.png" alt="">
+            <img class="hero__floating-animal hero__floating-animal--tl float-slow" src="images/animal-fox.svg" alt="">
+            <img class="hero__floating-animal hero__floating-animal--tr float" src="images/animal-panda.svg" alt="">
+            <img class="hero__floating-animal hero__floating-animal--bl float-fast" src="images/animal-koala.svg" alt="">
+
+            <div class="hero__floating-card glass-pulse">
+              <div class="row">
+                <img class="ic" src="images/icon-google-play.svg" alt="">
+                <div class="meta">
+                  <strong>4.6 ★</strong>
+                  <span>Average user rating</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero__floating-card tl">
+              <div class="row">
+                <img class="ic" src="images/icon-rocket.svg" alt="">
+                <div class="meta">
+                  <strong>+38% ARPDAU</strong>
+                  <span>after mediation re-stack</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero__floating-card br">
+              <div class="row">
+                <img class="ic" src="images/icon-trend.svg" alt="">
+                <div class="meta">
+                  <strong>Live · 24h</strong>
+                  <span>eCPM trending up</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__scroll-cue" aria-hidden="true">
+        <span class="mouse"></span>
+        <span>Scroll</span>
+      </div>
+    </section>
+    <!-- ==================== HERO_SECTION_END ==================== -->
+
+
+    <!-- ==================== OVERVIEW_SECTION_START ==================== -->
+    <section class="section bg-paper" id="overview">
+      <div class="deco-grid" aria-hidden="true"></div>
+      <div class="deco-blob accent float-slow" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="section-head reveal-stagger">
+          <span class="eyebrow"><span class="kicker-dot"></span> Why HW FanVL</span>
+          <h2 class="section-title">
+            A small studio with a <span class="accent">craftsman's</span> obsession.
+          </h2>
+          <p class="section-subtitle">
+            We move like a product team, not an agency. Every app that leaves the studio is hand-tuned end-to-end — from the first paper sketch to the thousandth live-ops event — and engineered to feel effortless on every device, in every market we ship to.
+          </p>
+        </div>
+
+        <div class="grid grid-3 overview__grid" data-anim="up">
+          <div class="card card-feature" data-anim="up" data-anim-delay="0">
+            <div class="card__icon"><img class="ic" src="images/icon-diamond.svg" alt=""></div>
+            <h3 class="card__title">Premium quality</h3>
+            <p class="card__body">
+              Every product we ship passes a six-point polish pass before release — animations, haptics, copy, sounds, iconography, onboarding. We sweat the 200 milliseconds that nobody notices on purpose.
+            </p>
+            <a class="card__link" href="services.html">Our standard <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 5 L20 12 L13 19"/></svg></a>
+          </div>
+
+          <div class="card card-feature" data-anim="up" data-anim-delay="80">
+            <div class="card__icon"><img class="ic" src="images/icon-trend.svg" alt=""></div>
+            <h3 class="card__title">Data-driven, not data-drowning</h3>
+            <p class="card__body">
+              We instrument every screen, button, and session, then let the numbers (not vanity dashboards) decide what to ship next. Cohort retention, D7, ARPDAU, eCPM waterfalls, and crash-free sessions — measured honestly.
+            </p>
+            <a class="card__link" href="services.html">Our dashboards <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 5 L20 12 L13 19"/></svg></a>
+          </div>
+
+          <div class="card card-feature" data-anim="up" data-anim-delay="160">
+            <div class="card__icon"><img class="ic" src="images/icon-shield.svg" alt=""></div>
+            <h3 class="card__title">Privacy by default</h3>
+            <p class="card__body">
+              ATT, GDPR, CCPA, kidSAFE, COPPA — we treat compliance as a first-class feature. Every data flow is documented, every SDK is permissioned, and every user can export, edit, or delete their data in two taps.
+            </p>
+            <a class="card__link" href="privacy.html">Read our policy <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 5 L20 12 L13 19"/></svg></a>
+          </div>
+
+          <div class="card card-feature" data-anim="up" data-anim-delay="240">
+            <div class="card__icon"><img class="ic" src="images/icon-lightning.svg" alt=""></div>
+            <h3 class="card__title">Lightning fast releases</h3>
+            <p class="card__body">
+              From kickoff to first store-approved build in 4–6 weeks. We use battle-tested templates, a shared component library, and a CI pipeline that takes care of signing, screenshots, and store metadata automatically.
+            </p>
+            <a class="card__link" href="services.html">See our process <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 5 L20 12 L13 19"/></svg></a>
+          </div>
+
+          <div class="card card-feature" data-anim="up" data-anim-delay="320">
+            <div class="card__icon"><img class="ic" src="images/icon-spark.svg" alt=""></div>
+            <h3 class="card__title">Always improving</h3>
+            <p class="card__body">
+              A shipped app is a living product. Live-ops events every fortnight, A/B-tested creatives, server-configurable difficulty, and content drops planned three months ahead — so the chart position compounds, not decays.
+            </p>
+            <a class="card__link" href="services.html">Live-ops playbook <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 5 L20 12 L13 19"/></svg></a>
+          </div>
+
+          <div class="card card-feature" data-anim="up" data-anim-delay="400">
+            <div class="card__icon"><img class="ic" src="images/icon-globe.svg" alt=""></div>
+            <h3 class="card__title">Globally available</h3>
+            <p class="card__body">
+              Shipped in 90+ countries and localized into English, Spanish, Portuguese, German, French, Japanese, Korean, Indonesian, Vietnamese, and Arabic. Our mediation waterfalls are tuned per region, not by a one-size-fits-all setting.
+            </p>
+            <a class="card__link" href="services.html">Localization reach <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 5 L20 12 L13 19"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==================== OVERVIEW_SECTION_END ==================== -->
+
+
+    <!-- ==================== FEATURED_SECTION_START ==================== -->
+    <section class="section bg-bone" id="featured">
+      <div class="deco-stripes" aria-hidden="true"></div>
+      <img class="deco-float deco-float--cat float" src="images/animal-cat.svg" alt="" aria-hidden="true">
+      <img class="deco-float deco-float--rabbit float-slow" src="images/animal-rabbit.svg" alt="" aria-hidden="true">
+
+      <div class="container">
+        <div class="section-head reveal-stagger">
+          <span class="eyebrow"><span class="kicker-dot"></span> What we craft</span>
+          <h2 class="section-title">
+            Four product lines. <span class="accent">One studio</span> behind them all.
+          </h2>
+          <p class="section-subtitle">
+            We don't do one-off gigs — we build product lines. Each lane is its own roadmap, its own live-ops calendar, and its own community of players or users. Together they form a portfolio that compounds learnings, code, and momentum.
+          </p>
+        </div>
+
+        <div class="grid grid-4 featured__grid" data-anim="up">
+          <article class="card card-feature" data-anim="up">
+            <div class="card-feature__media">
+              <img src="images/illustration-celebration.png" alt="Casual mobile game artwork">
+              <span class="badge"><img class="ic" src="images/icon-game.svg" alt=""> Casual game</span>
+            </div>
+            <div class="card-feature__body">
+              <h3 class="card-feature__title">Casual mobile games</h3>
+              <p>
+                Single-player puzzlers, runners, merge titles, and match-3 spinoffs — built around a five-second hook, a fifteen-minute session, and a reason to come back tomorrow. We prototype ten, ship one.
+              </p>
+              <div class="card-feature__meta">
+                <span class="tag"><span class="dot"></span> Match-3</span>
+                <span class="tag"><span class="dot"></span> Runner</span>
+                <span class="tag"><span class="dot"></span> Merge</span>
+              </div>
+            </div>
+            <a class="card__link" href="services.html">See the catalogue <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 5 L20 12 L13 19"/></svg></a>
+          </article>
+
+          <article class="card card-feature" data-anim="up" data-anim-delay="80">
+            <div class="card-feature__media">
+              <img src="images/illustration-abstract.png" alt="Lifestyle utility app artwork">
+              <span class="badge"><img class="ic" src="images/icon-mobile.svg" alt=""> Utility</span>
+            </div>
+            <div class="card-feature__body">
+              <h3 class="card-feature__title">Lifestyle utility apps</h3>
+              <p>
+                Daily-use companions: smart calculators, focused note-takers, health check-ins, photo editors, and gentle habit trackers. Apps you open for ten seconds, twice a day, for years on end.
+              </p>
+              <div class="card-feature__meta">
+                <span class="tag"><span class="dot"></span> Productivity</span>
+                <span class="tag"><span class="dot"></span> Health</span>
+                <span class="tag"><span class="dot"></span> Photo</span>
+              </div>
+            </div>
+            <a class="card__link" href="services.html">Browse the suite <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 5 L20 12 L13 19"/></svg></a>
+          </article>
+
+          <article class="card card-feature" data-anim="up" data-anim-delay="160">
+            <div class="card-feature__media">
+              <img src="images/illustration-connections.png" alt="Cross-platform SDK">
+              <span class="badge"><img class="ic" src="images/icon-spark.svg" alt=""> SDK</span>
+            </div>
+            <div class="card-feature__body">
+              <h3 class="card-feature__title">Cross-platform SDK</h3>
+              <p>
+                One monetization layer that speaks iOS, Android, and Web. A drop-in mediation adapter, waterfall manager, and analytics shim — battle-tested across 50+ apps and built for studios that ship weekly, not annually.
+              </p>
+              <div class="card-feature__meta">
+                <span class="tag tag-ink"><span class="dot"></span> iOS</span>
+                <span class="tag tag-ink"><span class="dot"></span> Android</span>
+                <span class="tag tag-ink"><span class="dot"></span> Web</span>
+              </div>
+            </div>
+            <a class="card__link" href="services.html">SDK overview <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 5 L20 12 L13 19"/></svg></a>
+          </article>
+
+          <article class="card card-feature" data-anim="up" data-anim-delay="240">
+            <div class="card-feature__media">
+              <img src="images/team-collaboration.png" alt="Performance consulting">
+              <span class="badge"><img class="ic" src="images/icon-target.svg" alt=""> Consulting</span>
+            </div>
+            <div class="card-feature__body">
+              <h3 class="card-feature__title">Performance consulting</h3>
+              <p>
+                Audit an existing app with us: onboarding flow, retention cohorts, ad waterfall, store page, and a 30-day plan to lift ARPDAU. We don't hand you a slide deck — we sit next to your team and ship the fixes.
+              </p>
+              <div class="card-feature__meta">
+                <span class="tag tag-accent"><span class="dot"></span> ASO</span>
+                <span class="tag tag-accent"><span class="dot"></span> Mediation</span>
+                <span class="tag tag-accent"><span class="dot"></span> UA</span>
+              </div>
+            </div>
+            <a class="card__link" href="contact.html">Book an audit <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12 H19"/><path d="M13 5 L20 12 L13 19"/></svg></a>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- ==================== FEATURED_SECTION_END ==================== -->
+
+
+    <!-- ==================== STATS_SECTION_START ==================== -->
+    <section class="section bg-ink" id="stats">
+      <div class="deco-dots deco-dots--light" aria-hidden="true"></div>
+      <div class="deco-blob amber float-slow" aria-hidden="true"></div>
+      <span class="deco-number" aria-hidden="true">50M+</span>
+
+      <div class="container">
+        <div class="section-head reveal-stagger center">
+          <span class="eyebrow eyebrow-light"><span class="kicker-dot"></span> By the numbers</span>
+          <h2 class="section-title text-paper">
+            Quiet, compounding <span class="gradient-text">scale</span>.
+          </h2>
+          <p class="section-subtitle">
+            We don't chase launches — we chase retention. These are the numbers we share with our partners at every quarterly review, refreshed from the same dashboards we read ourselves every Monday morning.
+          </p>
+        </div>
+
+        <div class="grid grid-4 stats" data-anim="up">
+          <div class="card card-stat" data-anim="up" data-anim-delay="0">
+            <span class="num"><span data-counter="50" data-suffix="+">0</span></span>
+            <span class="lbl">Published apps</span>
+            <span class="stat__trend"><img class="ic" src="images/icon-trend.svg" alt=""> Live on both stores</span>
+          </div>
+          <div class="card card-stat" data-anim="up" data-anim-delay="80">
+            <span class="num"><span data-counter="30" data-suffix="M+">0</span></span>
+            <span class="lbl">Lifetime downloads</span>
+            <span class="stat__trend"><img class="ic" src="images/icon-trend.svg" alt=""> Organic + paid</span>
+          </div>
+          <div class="card card-stat" data-anim="up" data-anim-delay="160">
+            <span class="num"><span data-counter="4.6" data-suffix="★" data-decimals="1">0</span></span>
+            <span class="lbl">Average user rating</span>
+            <span class="stat__trend"><img class="ic" src="images/icon-star.svg" alt=""> 92% positive reviews</span>
+          </div>
+          <div class="card card-stat" data-anim="up" data-anim-delay="240">
+            <span class="num"><span data-counter="90" data-suffix="+">0</span></span>
+            <span class="lbl">Countries reached</span>
+            <span class="stat__trend"><img class="ic" src="images/icon-globe.svg" alt=""> Localized in 10 languages</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==================== STATS_SECTION_END ==================== -->
+
+
+    <!-- ==================== CTA_SECTION_START ==================== -->
+    <section class="section bg-paper" id="cta">
+      <div class="deco-blob ink float-slow" aria-hidden="true"></div>
+      <img class="deco-float deco-float--dog float" src="images/animal-dog.svg" alt="" aria-hidden="true">
+
+      <div class="container">
+        <div class="card-cta" data-anim="scale">
+          <div class="card-cta__content">
+            <span class="kicker"><span class="dot"></span> Start a project</span>
+            <h2>Ready to ship your <span class="gradient-text">next idea</span>?</h2>
+            <p>
+              Tell us what you're building — a casual game, a daily utility, a re-stack of an existing app, or a white-label rollout for your brand. We reply to every message, usually within one business day, with a short plan and a quote.
+            </p>
+            <div class="actions">
+              <a class="btn btn-accent btn-lg" data-magnetic href="mailto:silasr@theboartech.pics?subject=Project%20inquiry%20%E2%80%94%20HW%20FanVL">
+                <span>silasr@theboartech.pics</span>
+                <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M7 17 L17 7"/>
+                  <path d="M8 7 H17 V16"/>
+                </svg>
+              </a>
+              <a class="btn btn-ghost btn-lg" href="contact.html">
+                <span>Or use the form</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="card-cta__visual" aria-hidden="true">
+            <div class="deco-grid deco-grid--dark"></div>
+            <img class="float-slow" src="images/animal-koala.svg" alt="">
+            <img class="float" src="images/animal-panda.svg" alt="">
+            <img class="float-fast" src="images/animal-fox.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==================== CTA_SECTION_END ==================== -->
+
+  </main>
+
+  <!-- ==================== FOOTER_START (identical across all pages) ==================== -->
+  <footer class="footer" data-anim="up">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a class="nav-logo" href="index.html" aria-label="HW FanVL home">
+            <img class="logo-mark" src="images/logo-white.svg" alt="" width="36" height="36">
+            <span class="logo-text">HW FanVL <span class="sub">studio</span></span>
+          </a>
+          <p>
+            HW FanVL is an independent mobile product studio crafting joyful games and indispensable everyday tools for audiences around the world.
+          </p>
+          <div class="footer__social">
+            <a href="#" aria-label="X (Twitter)"><img class="ic" src="images/icon-x.svg" alt=""></a>
+            <a href="#" aria-label="LinkedIn"><img class="ic" src="images/icon-linkedin.svg" alt=""></a>
+            <a href="#" aria-label="Instagram"><img class="ic" src="images/icon-instagram.svg" alt=""></a>
+            <a href="#" aria-label="YouTube"><img class="ic" src="images/icon-youtube.svg" alt=""></a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <h6>Studio</h6>
+          <ul role="list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h6>Resources</h6>
+          <ul role="list">
+            <li><a href="privacy.html">Privacy policy</a></li>
+            <li><a href="terms.html">Terms of service</a></li>
+            <li><a href="contact.html">Press &amp; partnerships</a></li>
+            <li><a href="app-ads.txt">app-ads.txt</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col footer__newsletter">
+          <h6>Stay in the loop</h6>
+          <p>Quarterly notes on new releases, growth experiments, and what we ship next.</p>
+          <form data-newsletter novalidate>
+            <input class="form-control" type="email" name="email" placeholder="you@studio.com" required aria-label="Email address">
+            <div class="form-status" data-form-status></div>
+            <button class="btn btn-accent btn-block" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div>© <span data-year>2026</span> HW FanVL. All rights reserved.</div>
+        <div class="legal-links">
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+          <a href="app-ads.txt">app-ads.txt</a>
+        </div>
+        <div class="region"><span class="dot"></span><span>Worldwide · English</span></div>
+      </div>
+    </div>
+  </footer>
+  <!-- ==================== FOOTER_END ==================== -->
+
+  <a class="back-to-top" data-back-top href="#main" aria-label="Back to top">
+    <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M12 19 V5"/>
+      <path d="M5 12 L12 5 L19 12"/>
+    </svg>
+  </a>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="diamond">
+  <path d="M6 3 H18 L22 9 L12 21 L2 9 Z"/>
+  <path d="M2 9 H22"/>
+  <path d="M9 9 L12 3 L15 9 L12 21"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="App 2 placeholder">
+  <defs>
+    <linearGradient id="app2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A2540"/>
+      <stop offset="100%" stop-color="#163A5F"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#app2)"/>
+  <g opacity="0.9">
+    <circle cx="180" cy="220" r="50" fill="#FF6B35"/>
+    <circle cx="320" cy="220" r="50" fill="#FFB347"/>
+    <circle cx="250" cy="320" r="50" fill="#FFFFFF"/>
+  </g>
+  <text x="256" y="430" font-family="Inter, system-ui" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle" opacity="0.8">APP 2</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="About placeholder">
+  <defs>
+    <linearGradient id="ph-abt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F2F2EE"/>
+      <stop offset="100%" stop-color="#E8EAEE"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#ph-abt)"/>
+  <rect x="40" y="40" width="720" height="920" fill="none" stroke="#0A2540" stroke-width="2" stroke-dasharray="8 8" opacity="0.3" rx="20"/>
+  <g transform="translate(400 500)">
+    <circle cx="0" cy="0" r="120" fill="none" stroke="#0A2540" stroke-width="2" opacity="0.3"/>
+    <circle cx="0" cy="0" r="80"  fill="none" stroke="#FF6B35" stroke-width="2" opacity="0.5"/>
+    <text y="10" font-family="Inter, system-ui" font-size="36" font-weight="800" fill="#0A2540" text-anchor="middle" opacity="0.5">ABOUT</text>
+  </g>
+  <text x="400" y="900" font-family="Inter, system-ui" font-size="14" font-weight="500" fill="#0A2540" text-anchor="middle" opacity="0.4" letter-spacing="0.2em">PLACEHOLDER 800×1000</text>
+</svg>

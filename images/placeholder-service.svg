@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Service placeholder">
+  <rect width="600" height="400" fill="#0A2540"/>
+  <g opacity="0.3" stroke="#FFFFFF" fill="none" stroke-width="1.5">
+    <circle cx="300" cy="200" r="120"/>
+    <circle cx="300" cy="200" r="80"/>
+    <line x1="180" y1="200" x2="420" y2="200"/>
+    <line x1="300" y1="80" x2="300" y2="320"/>
+  </g>
+  <text x="300" y="210" font-family="Inter, system-ui" font-size="32" font-weight="800" fill="#FFFFFF" text-anchor="middle" opacity="0.7">SERVICE</text>
+  <text x="300" y="370" font-family="Inter, system-ui" font-size="12" fill="#FFFFFF" text-anchor="middle" opacity="0.4" letter-spacing="0.2em">PLACEHOLDER 600×400</text>
+</svg>

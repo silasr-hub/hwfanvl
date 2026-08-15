@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Feature placeholder 2">
+  <rect width="800" height="600" fill="#FAFAF7"/>
+  <g opacity="0.3" stroke="#0A2540" fill="none" stroke-width="1.5">
+    <rect x="100" y="100" width="280" height="400" rx="20"/>
+    <rect x="420" y="100" width="280" height="190" rx="20"/>
+    <rect x="420" y="310" width="280" height="190" rx="20"/>
+  </g>
+  <circle cx="240" cy="240" r="40" fill="#FF6B35" opacity="0.5"/>
+  <text x="240" y="320" font-family="Inter, system-ui" font-size="20" font-weight="800" fill="#0A2540" text-anchor="middle" opacity="0.5">2A</text>
+  <text x="560" y="200" font-family="Inter, system-ui" font-size="20" font-weight="800" fill="#0A2540" text-anchor="middle" opacity="0.5">2B</text>
+  <text x="560" y="410" font-family="Inter, system-ui" font-size="20" font-weight="800" fill="#0A2540" text-anchor="middle" opacity="0.5">2C</text>
+  <text x="400" y="560" font-family="Inter, system-ui" font-size="12" fill="#0A2540" text-anchor="middle" opacity="0.4" letter-spacing="0.2em">PLACEHOLDER 800×600</text>
+</svg>

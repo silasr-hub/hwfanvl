@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="rabbit mascot">
+  <defs>
+    <linearGradient id="rabbit-fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5EFE3"/>
+      <stop offset="100%" stop-color="#E5D6B5"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="60" cy="108" rx="30" ry="6" fill="rgba(10,37,64,0.10)"/>
+  <!-- body -->
+  <ellipse cx="60" cy="84" rx="24" ry="22" fill="url(#rabbit-fur)"/>
+  <!-- belly -->
+  <ellipse cx="60" cy="92" rx="14" ry="12" fill="#FFFFFF"/>
+  <!-- feet -->
+  <ellipse cx="46" cy="104" rx="8" ry="5" fill="url(#rabbit-fur)"/>
+  <ellipse cx="74" cy="104" rx="8" ry="5" fill="url(#rabbit-fur)"/>
+  <!-- head -->
+  <circle cx="60" cy="52" r="22" fill="url(#rabbit-fur)"/>
+  <!-- ears (long) -->
+  <ellipse cx="50" cy="22" rx="6" ry="18" fill="url(#rabbit-fur)"/>
+  <ellipse cx="70" cy="22" rx="6" ry="18" fill="url(#rabbit-fur)"/>
+  <ellipse cx="50" cy="24" rx="3" ry="12" fill="#FFB6C1"/>
+  <ellipse cx="70" cy="24" rx="3" ry="12" fill="#FFB6C1"/>
+  <!-- eyes -->
+  <ellipse cx="52" cy="50" rx="3" ry="4.5" fill="#0A2540"/>
+  <ellipse cx="68" cy="50" rx="3" ry="4.5" fill="#0A2540"/>
+  <circle cx="53" cy="48" r="1.2" fill="#FFFFFF"/>
+  <circle cx="69" cy="48" r="1.2" fill="#FFFFFF"/>
+  <!-- nose -->
+  <path d="M58 58 L62 58 L60 61 Z" fill="#FF6B35"/>
+  <!-- mouth -->
+  <path d="M60 61 V64 M60 64 C57 66 54 65 54 62 M60 64 C63 66 66 65 66 62" stroke="#0A2540" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <!-- teeth (signature bunny teeth) -->
+  <rect x="57" y="64" width="3" height="4" rx="0.5" fill="#FFFFFF" stroke="#0A2540" stroke-width="0.6"/>
+  <rect x="60" y="64" width="3" height="4" rx="0.5" fill="#FFFFFF" stroke="#0A2540" stroke-width="0.6"/>
+  <!-- whiskers -->
+  <path d="M36 58 H46 M36 62 H46 M74 58 H84 M74 62 H84" stroke="#0A2540" stroke-width="0.8" stroke-linecap="round" opacity="0.5"/>
+</svg>

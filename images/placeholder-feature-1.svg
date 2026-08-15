@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Feature placeholder 1">
+  <rect width="800" height="600" fill="#0A2540"/>
+  <g opacity="0.3" stroke="#FFFFFF" fill="none" stroke-width="1.5">
+    <rect x="100" y="100" width="600" height="400" rx="20"/>
+    <rect x="140" y="140" width="520" height="320" rx="14"/>
+    <line x1="140" y1="240" x2="660" y2="240"/>
+    <line x1="140" y1="340" x2="660" y2="340"/>
+    <circle cx="180" cy="190" r="8" fill="#FF6B35" stroke="none"/>
+    <circle cx="200" cy="190" r="8" fill="#FFFFFF" opacity="0.3" stroke="none"/>
+    <circle cx="220" cy="190" r="8" fill="#FFFFFF" opacity="0.3" stroke="none"/>
+  </g>
+  <text x="400" y="320" font-family="Inter, system-ui" font-size="42" font-weight="800" fill="#FFFFFF" text-anchor="middle" opacity="0.5" letter-spacing="-0.02em">FEATURE 1</text>
+  <text x="400" y="360" font-family="Inter, system-ui" font-size="14" fill="#FFFFFF" text-anchor="middle" opacity="0.4" letter-spacing="0.2em">PLACEHOLDER 800×600</text>
+</svg>

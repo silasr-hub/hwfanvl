@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="cat mascot">
+  <defs>
+    <linearGradient id="cat-fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFB347"/>
+      <stop offset="100%" stop-color="#FF8E3C"/>
+    </linearGradient>
+  </defs>
+  <!-- body shadow -->
+  <ellipse cx="60" cy="108" rx="34" ry="6" fill="rgba(10,37,64,0.10)"/>
+  <!-- tail -->
+  <path d="M30 86 C18 78 14 60 22 50 C30 40 38 50 36 60 C34 70 36 80 38 86 Z" fill="url(#cat-fur)"/>
+  <!-- body -->
+  <ellipse cx="60" cy="82" rx="28" ry="22" fill="url(#cat-fur)"/>
+  <!-- chest -->
+  <ellipse cx="60" cy="88" rx="16" ry="12" fill="#FFE4C2"/>
+  <!-- head -->
+  <circle cx="60" cy="48" r="26" fill="url(#cat-fur)"/>
+  <!-- ears -->
+  <path d="M40 32 L36 14 L52 26 Z" fill="url(#cat-fur)"/>
+  <path d="M80 32 L84 14 L68 26 Z" fill="url(#cat-fur)"/>
+  <path d="M42 28 L40 18 L48 24 Z" fill="#FF6B35"/>
+  <path d="M78 28 L80 18 L72 24 Z" fill="#FF6B35"/>
+  <!-- eyes -->
+  <ellipse cx="50" cy="48" rx="3.5" ry="5" fill="#0A2540"/>
+  <ellipse cx="70" cy="48" rx="3.5" ry="5" fill="#0A2540"/>
+  <circle cx="51" cy="46" r="1" fill="#FFFFFF"/>
+  <circle cx="71" cy="46" r="1" fill="#FFFFFF"/>
+  <!-- nose -->
+  <path d="M58 56 L62 56 L60 59 Z" fill="#0A2540"/>
+  <!-- mouth -->
+  <path d="M60 59 V62 M60 62 C57 65 53 65 52 62 M60 62 C63 65 67 65 68 62" stroke="#0A2540" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- whiskers -->
+  <path d="M30 56 H44 M30 60 H44 M76 56 H90 M76 60 H90" stroke="#0A2540" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+  <!-- cheeks -->
+  <circle cx="44" cy="56" r="2.5" fill="#FF6B35" opacity="0.5"/>
+  <circle cx="76" cy="56" r="2.5" fill="#FF6B35" opacity="0.5"/>
+</svg>

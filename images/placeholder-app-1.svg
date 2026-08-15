@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="App 1 placeholder">
+  <defs>
+    <linearGradient id="app1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF6B35"/>
+      <stop offset="100%" stop-color="#FFB347"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#app1)"/>
+  <circle cx="256" cy="256" r="120" fill="rgba(255,255,255,0.2)"/>
+  <path d="M180 320 L256 180 L332 320 Z" fill="#FFFFFF"/>
+  <text x="256" y="430" font-family="Inter, system-ui" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle" opacity="0.9">APP 1</text>
+</svg>

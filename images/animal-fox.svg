@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="fox mascot">
+  <defs>
+    <linearGradient id="fox-fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF6B35"/>
+      <stop offset="100%" stop-color="#D34A1C"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="60" cy="108" rx="32" ry="6" fill="rgba(10,37,64,0.10)"/>
+  <!-- tail (big fluffy) -->
+  <path d="M22 90 C8 78 12 56 28 56 C32 56 36 60 36 70 C36 80 32 88 28 92 Z" fill="url(#fox-fur)"/>
+  <ellipse cx="22" cy="68" rx="6" ry="10" fill="#FFFFFF" opacity="0.8"/>
+  <!-- body -->
+  <ellipse cx="62" cy="84" rx="26" ry="20" fill="url(#fox-fur)"/>
+  <!-- chest -->
+  <ellipse cx="62" cy="90" rx="14" ry="10" fill="#FFFFFF"/>
+  <!-- head -->
+  <circle cx="60" cy="46" r="26" fill="url(#fox-fur)"/>
+  <!-- ears -->
+  <path d="M38 30 L34 10 L52 22 Z" fill="url(#fox-fur)"/>
+  <path d="M82 30 L86 10 L68 22 Z" fill="url(#fox-fur)"/>
+  <path d="M40 26 L38 14 L48 22 Z" fill="#0A2540"/>
+  <path d="M80 26 L82 14 L72 22 Z" fill="#0A2540"/>
+  <!-- face mask -->
+  <path d="M60 36 C50 36 44 46 46 60 L60 64 L74 60 C76 46 70 36 60 36 Z" fill="#FFFFFF"/>
+  <!-- eyes -->
+  <ellipse cx="50" cy="46" rx="3" ry="4" fill="#0A2540"/>
+  <ellipse cx="70" cy="46" rx="3" ry="4" fill="#0A2540"/>
+  <circle cx="51" cy="45" r="1" fill="#FFFFFF"/>
+  <circle cx="71" cy="45" r="1" fill="#FFFFFF"/>
+  <!-- nose -->
+  <ellipse cx="60" cy="55" rx="3" ry="2.5" fill="#0A2540"/>
+  <!-- mouth -->
+  <path d="M60 58 V62 M60 62 C57 65 53 64 52 60 M60 62 C63 65 67 64 68 60" stroke="#0A2540" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+</svg>

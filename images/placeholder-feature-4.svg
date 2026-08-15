@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Feature placeholder 4">
+  <rect width="800" height="600" fill="#FAFAF7"/>
+  <g opacity="0.4" stroke="#0A2540" fill="none" stroke-width="1.5">
+    <rect x="120" y="120" width="560" height="360" rx="20"/>
+    <line x1="120" y1="200" x2="680" y2="200"/>
+    <rect x="160" y="140" width="120" height="40" rx="8"/>
+    <line x1="160" y1="240" x2="640" y2="240"/>
+    <line x1="160" y1="280" x2="600" y2="280"/>
+    <line x1="160" y1="320" x2="560" y2="320"/>
+    <line x1="160" y1="360" x2="520" y2="360"/>
+    <line x1="160" y1="400" x2="480" y2="400"/>
+    <line x1="160" y1="440" x2="440" y2="440"/>
+  </g>
+  <text x="400" y="560" font-family="Inter, system-ui" font-size="12" fill="#0A2540" text-anchor="middle" opacity="0.4" letter-spacing="0.2em">PLACEHOLDER 800×600</text>
+</svg>
